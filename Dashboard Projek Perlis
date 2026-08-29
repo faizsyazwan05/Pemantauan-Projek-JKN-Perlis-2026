@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Kedua</title>
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #f8f9fa; }
+    iframe { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <!-- Gantikan pautan di bawah dengan URL Web App dashboard kedua anda -->
+  <iframe src="https://script.google.com/macros/s/AKfycbztfKlXi-h6pYo3beiaPeTdOWgi5nfo7Wem3TZiGnDo7hKfow0kXAW6nOUOj8xi0RbNcg/exec"></iframe>
+</body>
+</html>
