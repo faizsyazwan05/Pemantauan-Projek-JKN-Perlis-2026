@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-jknps-v1';
+const CACHE_NAME = 'pwa-jknps-v2';
 const urlsToCache = [
   './',
   './index.html',
