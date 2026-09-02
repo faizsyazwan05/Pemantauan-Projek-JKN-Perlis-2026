@@ -1,0 +1,16 @@
+{
+  "name": "Sistem Pemantauan Projek JKN Perlis",
+  "short_name": "Projek JKNPs",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0a0b12",
+  "theme_color": "#c0327d",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
