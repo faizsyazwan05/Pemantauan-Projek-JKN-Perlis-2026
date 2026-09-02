@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#c0327d">
   <title>Sistem Pemantauan Projek JKN Perlis 2026</title>
   
-  <!-- FAVICON (LOGO TAB BROWSER) -->
+  <!-- FAVICON & MANIFEST PWA -->
   <link rel="icon" href="https://lh3.googleusercontent.com/d/1L-nKp77gqYVWeD5yD-2auw6idoCajYN3" type="image/png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-512.png">
 
   <style>
-    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #f8f9fa; }
+    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #0a0b12; }
     iframe { width: 100%; height: 100%; border: none; }
   </style>
 </head>
 <body>
-  <!-- Gantikan pautan di bawah dengan URL Web App dashboard kedua anda -->
   <iframe src="https://script.google.com/macros/s/AKfycbztfKlXi-h6pYo3beiaPeTdOWgi5nfo7Wem3TZiGnDo7hKfow0kXAW6nOUOj8xi0RbNcg/exec"></iframe>
+
+  <!-- DAFTAR SERVICE WORKER -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => console.log('Service Worker didaftarkan.'))
+          .catch(err => console.error('Pendaftaran Service Worker gagal:', err));
+      });
+    }
+  </script>
 </body>
 </html>
